@@ -1,0 +1,14 @@
+{
+  "name": "dometrain",
+  "owner": {
+    "name": "Dometrain",
+    "url": "https://dometrain.com"
+  },
+  "plugins": [
+    {
+      "name": "dometrain",
+      "source": "./",
+      "description": "Ground your coding agent in Dometrain course content via the Dometrain MCP server (requires Dometrain Pro and a DOMETRAIN_API_KEY)."
+    }
+  ]
+}

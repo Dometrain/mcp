@@ -1,0 +1,11 @@
+{
+  "name": "dometrain",
+  "version": "1.0.0",
+  "description": "Ground your coding agent in Dometrain course content: search lessons, pull curated lesson documents with on-screen code, and cite them with timestamped deep links. Requires Dometrain Pro.",
+  "author": {
+    "name": "Dometrain",
+    "url": "https://dometrain.com"
+  },
+  "homepage": "https://github.com/dometrain/mcp",
+  "keywords": ["dometrain", "courses", "dotnet", "csharp", "learning", "mcp"]
+}

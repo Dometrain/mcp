@@ -29,7 +29,7 @@ export DOMETRAIN_API_KEY="dmt_live_..."
 Quickest — add the server directly:
 
 ```bash
-claude mcp add --transport http dometrain https://mcp.dometrain.com/mcp \
+claude mcp add --scope user --transport http dometrain https://mcp.dometrain.com/mcp \
   --header "Authorization: Bearer ${DOMETRAIN_API_KEY}"
 ```
 
@@ -53,7 +53,7 @@ bearer_token_env_var = "DOMETRAIN_API_KEY"
 
 ### GitHub Copilot (VS Code)
 
-Add to your workspace `.vscode/mcp.json` (or user-level `mcp.json`):
+Run **MCP: Open User Configuration** and add to your user `mcp.json`:
 
 ```json
 {
@@ -71,7 +71,7 @@ Add to your workspace `.vscode/mcp.json` (or user-level `mcp.json`):
 
 ### OpenCode
 
-Add to `opencode.json`:
+Add to `~/.config/opencode/opencode.json`:
 
 ```json
 {
